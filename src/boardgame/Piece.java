@@ -1,7 +1,5 @@
 package boardgame;
 
-import chess.Color;
-
 public abstract class Piece {
 	
 	protected Position position;

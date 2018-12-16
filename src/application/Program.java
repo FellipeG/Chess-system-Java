@@ -46,6 +46,10 @@ public class Program {
 				e.printStackTrace();
 				sc.nextLine();
 			}
+			
+			catch(RuntimeException e) {
+				e.printStackTrace();
+			}
 		}
 		
 		UI.clearScreen();
